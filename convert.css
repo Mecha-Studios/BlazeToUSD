@@ -1,0 +1,36 @@
+body{
+    background: url('sf background.png') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    image-rendering: optimizeQuality;
+    text-align: center;
+}
+
+#blaze{
+    width: 500px;
+    height: 100px;
+    font-size: 75px;
+}
+#blaze:hover{
+    background-color: red;
+}
+
+#usd{
+    width: 500px;
+    height: 100px;
+    font-size: 75px;
+}
+#usd:hover{
+    background-color: orange;
+}
+
+#convert{
+    width: 1010px;
+    height: 100px;
+    font-size: 75px;
+}
+#convert:hover{
+    background-image: linear-gradient(red, orange);
+}
