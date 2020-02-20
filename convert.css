@@ -26,8 +26,28 @@ body{
     background-color: orange;
 }
 
+#twitter-share-button{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+}
+#twitter-share-button:hover{
+    background-color: red;
+}
+
+#donate-button{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+}
+#donate-button:hover{
+    background-color: orange;
+}
+
 #convert{
-    width: 1010px;
+    width: 745px;
     height: 100px;
     font-size: 75px;
 }

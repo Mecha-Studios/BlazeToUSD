@@ -1,6 +1,10 @@
 var blaze = document.getElementById("blaze");
 var usd = document.getElementById("usd");
 var tweet = document.getElementById('twitter-share-button');
+var version = 1.2;
+
+console.log("BlazeToUSD V" + version);
+
 
 function convert(){
     var divide = 500;
