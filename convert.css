@@ -9,7 +9,7 @@ body{
 }
 
 #blaze{
-    width: 500px;
+    width: 30%;
     height: 100px;
     font-size: 75px;
 }
@@ -18,7 +18,7 @@ body{
 }
 
 #usd{
-    width: 500px;
+    width: 30%;
     height: 100px;
     font-size: 75px;
 }
@@ -47,7 +47,7 @@ body{
 }
 
 #convert{
-    width: 745px;
+    width: 42.5%;
     height: 100px;
     font-size: 75px;
 }
