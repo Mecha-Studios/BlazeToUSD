@@ -1,7 +1,7 @@
 var blaze = document.getElementById("blaze");
 var usd = document.getElementById("usd");
 var tweet = document.getElementById('twitter-share-button');
-var version = 1.2;
+var version = 1.3;
 
 console.log("BlazeToUSD V" + version);
 
