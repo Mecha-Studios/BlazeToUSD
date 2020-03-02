@@ -36,6 +36,15 @@ body{
     background-color: red;
 }
 
+.bottomtext{
+    background-color: none;
+    bottom: 0; 
+    position: absolute;
+}
+.bottomtext:hover{
+    background: linear-gradient(red,orange);
+}
+
 #donate-button{
     text-align: center;
     background-color: black;
