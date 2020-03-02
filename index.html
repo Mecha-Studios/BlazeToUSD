@@ -5,6 +5,15 @@
         <link rel="stylesheet" href="convert.css"/>
     </head>
     <body>
+        <div class="dropdown">
+            <span id="dropbutton" style="font-size: 72px;">☰</span>
+            <div class="dropdown-content">
+                <h3 class="menutext" onclick="location.href = 'https://www.tylerruotolo.tk'">My Website</h3>
+                <h3 class="menutext" onclick="location.href = 'https://www.storyfire.com/user/ow6I6XmrUGMoTDSbQpiO3Dcnw1N2'">StoryFire</h3>
+                <h3 class="menutext" onclick="location.href = 'https://www.youtube.com/TylerRuotolo'">YouTube</h3>
+                <h3 class="menutext" onclick="location.href = 'https://www.twitter.com/TylerRuotolo'">Twitter</h3>
+            </div>
+          </div>
         <input type="number" id="blaze" placeholder="Blaze"/>
         <input id="usd" placeholder="USD" readonly/>
         <button id="convert" onclick="convert()">Convert</button>
@@ -14,9 +23,7 @@
         <p style="color: black;">This converter is not made by StoryFire Inc., but it is made to help creators know how much their Blaze is in USD.</p>
         <p style="color: black;">EX: 1 Blaze = $0.002</p>
         <h3 class="bottomtext">© Copyright Tyler Ruotolo 2020</h3>
-        <h3 class="bottomtext" style="right: 55%;" onclick="location.href = 'https://www.tylerruotolo.tk'">Check out my website</h3>
-        <h3 class="bottomtext" style="left: 55%;" onclick="location.href = 'https://www.storyfire.com/user/ow6I6XmrUGMoTDSbQpiO3Dcnw1N2'">Subscribe to me on StoryFire</h3>
-        <h3 class="bottomtext" style="right: 0;" onclick="location.href = 'https://www.youtube.com/TylerRuotolo'">Subscribe to me on YouTube</h3>
+        <h3 id="versionnumber" class="bottomtext" style="right: 0;">Version: </h3>
         <script src="converter.js"></script>
         <script data-ad-client="ca-pub-4518933379950981" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </body>
