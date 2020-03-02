@@ -6,6 +6,7 @@ body{
     -o-background-size: cover;
     image-rendering: optimizeQuality;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #blaze{
@@ -31,18 +32,24 @@ body{
     background-color: black;
     color: white;
     font-size: 50px;
+    box-shadow: rgba( 255, 0, 0, 1) 4px 4px;
 }
 #twitter-share-button:hover{
     background-color: red;
+    box-shadow: rgba( 0, 0, 0, 1) 4px 4px;
 }
 
 .bottomtext{
     background-color: none;
     bottom: 0; 
     position: absolute;
+    text-shadow: rgba(255, 0, 0, 1) 2px 2px;
 }
 .bottomtext:hover{
     background: linear-gradient(red,orange);
+    color: white;
+    text-shadow: rgba(0, 0, 0, 1) 2px 2px;
+    box-shadow: rgba( 0, 0, 0, 1) 2px 2px;
 }
 
 #donate-button{
@@ -50,9 +57,11 @@ body{
     background-color: black;
     color: white;
     font-size: 50px;
+    box-shadow: rgba( 255, 0, 0, 1) 4px 4px;
 }
 #donate-button:hover{
     background-color: orange;
+    box-shadow: rgba( 0, 0, 0, 1) 4px 4px;
 }
 
 #convert{
