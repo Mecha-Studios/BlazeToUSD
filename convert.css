@@ -32,7 +32,7 @@ body{
     text-align: center;
     background-color: black;
     color: white;
-    font-size: 50px;
+    font-size: 55px;
     box-shadow: rgba( 255, 0, 0, 1) 4px 4px;
 }
 #twitter-share-button:hover{
@@ -68,7 +68,7 @@ body{
     text-align: center;
     background-color: black;
     color: white;
-    font-size: 50px;
+    font-size: 55px;
     box-shadow: rgba( 255, 0, 0, 1) 4px 4px;
 }
 #donate-button:hover{
@@ -77,12 +77,15 @@ body{
 }
 
 #convert{
-    width: 42.5%;
-    height: 100px;
     font-size: 75px;
+    background-color: black;
+    color: white;
+    box-shadow: rgba( 255, 0, 0, 1) 4px 4px;
 }
 #convert:hover{
     background-image: linear-gradient(red, orange);
+    box-shadow: rgba( 0, 0, 0, 1) 4px 4px;
+    color: black;
 }
 
 .dropdown {
@@ -100,7 +103,7 @@ body{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
-    z-index: 1;
+    z-index: 2;
     background-color: black;
 }
   
