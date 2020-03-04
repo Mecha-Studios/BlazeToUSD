@@ -32,7 +32,7 @@ body{
     text-align: center;
     background-color: black;
     color: white;
-    font-size: 55px;
+    font-size: 75px;
     box-shadow: rgba( 255, 0, 0, 1) 4px 4px;
 }
 #twitter-share-button:hover{
@@ -56,19 +56,22 @@ body{
 .menutext{
     background-color: none;
     text-shadow: rgba(255, 0, 0, 1) 2px 2px;
+    color: white;
+    background-color: grey;
 }
 .menutext:hover{
     background: linear-gradient(red,orange);
     color: white;
     text-shadow: rgba(0, 0, 0, 1) 2px 2px;
     box-shadow: rgba( 0, 0, 0, 1) 2px 2px;
+    transform: translateX(10px);
 }
 
 #donate-button{
     text-align: center;
     background-color: black;
     color: white;
-    font-size: 55px;
+    font-size: 75px;
     box-shadow: rgba( 255, 0, 0, 1) 4px 4px;
 }
 #donate-button:hover{
