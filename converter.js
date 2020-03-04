@@ -7,7 +7,7 @@ var versiontext = document.getElementById("versionnumber");
 console.log("BlazeToUSD Version:" + version);
 versiontext.innerHTML+= version;
 
-function convert(){
+function convertUSD(){
     var divide = 500;
     let finalAmount = blaze.value/divide;
     usd.value = "$" + Math.floor(finalAmount * 100) / 100;
