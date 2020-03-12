@@ -11,7 +11,7 @@ body{
 }
 
 #blaze{
-    width: 30%;
+    width: 20%;
     height: 100px;
     font-size: 75px;
 }
@@ -19,8 +19,17 @@ body{
     background-color: red;
 }
 
+#views{
+    width: 20%;
+    height: 100px;
+    font-size: 75px;
+}
+#views:hover{
+    background: linear-gradient(red, orange);
+}
+
 #usd{
-    width: 30%;
+    width: 20%;
     height: 100px;
     font-size: 75px;
 }
