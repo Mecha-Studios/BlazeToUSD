@@ -45,7 +45,7 @@ body{
     box-shadow: rgba( 255, 0, 0, 1) 4px 4px;
 }
 #twitter-share-button:hover{
-    background-color: red;
+    background: linear-gradient(red, orange);
     box-shadow: rgba( 0, 0, 0, 1) 4px 4px;
 }
 
@@ -95,7 +95,7 @@ body{
     box-shadow: rgba( 255, 0, 0, 1) 4px 4px;
 }
 #convert:hover{
-    background-image: linear-gradient(red, orange);
+    background-color: red;
     box-shadow: rgba( 0, 0, 0, 1) 4px 4px;
 }
 

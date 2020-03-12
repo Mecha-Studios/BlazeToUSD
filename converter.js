@@ -18,4 +18,5 @@ function convertViews(){
     var divideblaze = 500;
     let final = blaze.value*views.value/divideblaze;
     usd.value = "$" + Math.floor(final * 100) / 100;
+    tweet.href = "https://twitter.com/intent/tweet?text=" + "I made " + usd.value + " on @storyfireapp in Blaze from paid views. I found out using blazetousd.tk! Click here if you'd like to donate to help fund this project: paypal.me/tylerruotolo";
 }
