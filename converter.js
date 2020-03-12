@@ -4,7 +4,6 @@ var tweet = document.getElementById('twitter-share-button');
 var version = "1.7";
 var versiontext = document.getElementById("versionnumber");
 var views = document.getElementById("views");
-
 console.log("BlazeToUSD Version:" + version);
 versiontext.innerHTML+= version;
 
@@ -17,7 +16,6 @@ function convertUSD(){
 
 function convertViews(){
     var divideblaze = 500;
-    let blazeandviews = blaze.value*views.value/divideblaze;
+    let final = blaze.value*views.value/divideblaze;
     usd.value = "$" + Math.floor(final * 100) / 100;
-
 }
