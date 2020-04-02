@@ -18,20 +18,17 @@
                 <h3 class="menutext" onclick="window.open('https://www.blazetousd.tk/LICENSE')">Copyright License</h3>
             </div>
         </div>
-        <input type="number" id="blaze" style="width: 45%;"placeholder="Blaze"/>
-        <input type="number" id="views" style="width: 45%;" placeholder="Views">
-        <input id="usd" placeholder="USD" readonly/>
-        <table>
-            <tbody>
-            <a id="convert" onclick="convertViews()">Convert</a>
-            <a id="twitter-share-button">Tweet</a>
-            <a id="donate-button" href="https://paypal.me/tylerruotolo">Donate</a>
-            </tbody>
-            
-        </table>
-           
-        <p style="color: black;">NOTE: This converter converts paid views(using Blaze) on StoryFire to USD..</p>
-        <p style="color: black;">This converter is not made by StoryFire Inc., but it is made to help creators know how much real money they've made from paid views.</p>
+
+        <form action="mailto:tylerruotolotech@gmail.com" method="post" enctype="text/plain">
+            Subject:<br>
+            <input type="text" name="subject" style="width: 45%;"><br>
+            E-mail:<br>
+            <input type="text" name="mail" style="width: 45%;"><br>
+            Message:<br>
+            <input type="text" name="message" size="50" style="width: 45%; height: 250px;"><br><br>
+            <input type="submit" value="Send">
+        </form>
+
         <h3 class="bottomtext" onclick="location.href = 'https://blazetousd.tk/LICENSE'">© Copyright Tyler Ruotolo 2020</h3>
         <h3 id="versionnumber" class="bottomtext" style="right: 0;">Version: </h3>
         <script src="converter.js"></script>
