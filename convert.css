@@ -10,7 +10,50 @@ body{
     margin: 0;
 }
 
-#blaze{
+input{
+    background: rgba(46, 46, 46, 0.5);
+    box-shadow: rgba(0,0,0,0.75)5px 5px 5px;
+    border: none;
+    outline: none;
+    font-size: 50px;
+    color: white;
+    border-radius: 15px;
+  }
+
+  textarea{
+    background: rgba(46, 46, 46, 0.5);
+    box-shadow: rgba(0,0,0,0.75)5px 5px 5px;
+    border: none;
+    outline: none;
+    font-size: 50px;
+    color: white;
+    border-radius: 15px;
+    resize: none;
+  }
+
+  h1{
+      font-size: 55px;
+  }
+
+  button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+  }
+  
+    button:hover {
+    background: rgba(255, 0, 0, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px; 
+    transform: scale(1.25);
+    border-radius: 15px;
+  }
+
+/*#blaze{
     height: 100px;
     font-size: 75px;
 }
@@ -44,7 +87,7 @@ body{
 #twitter-share-button:hover{
     background: linear-gradient(red, orange);
     box-shadow: rgba( 0, 0, 0, 1) 4px 4px;
-}
+}*/
 
 .bottomtext{
     background-color: none;
