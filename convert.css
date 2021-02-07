@@ -1,11 +1,11 @@
 body{
-    background: url('sf background.png') no-repeat center center fixed;
+    background: url('background.jpg') no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     image-rendering: optimizeQuality;
-    text-align: center;
+    text-align: center !important;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
@@ -15,7 +15,8 @@ input{
     box-shadow: rgba(0,0,0,0.75)5px 5px 5px;
     border: none;
     outline: none;
-    font-size: 50px;
+    height: 100px;
+    font-size: 75px;
     color: white;
     border-radius: 15px;
   }
@@ -33,6 +34,7 @@ input{
 
   h1{
       font-size: 55px;
+      text-align: center;
   }
 
   button{
@@ -51,6 +53,30 @@ input{
     box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px; 
     transform: scale(1.25);
     border-radius: 15px;
+  }
+
+a {
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    text-align: center;
+    transition: 0.3s;
+    font-size: 100px;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+  }
+  
+  a:hover {
+    background: rgba(255, 123, 0, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px; 
+    transform: scale(1.25);
+    border-radius: 15px;
+  }
+  
+  a.active {
+    background: rgba(50, 50, 50, 0.5);
   }
 
 /*#blaze{
@@ -89,10 +115,33 @@ input{
     box-shadow: rgba( 0, 0, 0, 1) 4px 4px;
 }*/
 
+.infodiv{
+    width: 100%;
+    margin: 10px;
+    top: 10%;
+    left: 15%;
+    color: white;
+    background: rgba(0, 0, 0, 0.75);
+    box-shadow: rgba(255, 255, 255, 0.5) 5px 5px 5px;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+}
+
+.elmcontain{
+    width: 60%;
+    position: absolute;
+    margin: 10px;
+    top: 10%;
+    left: 20%;
+    text-align: center;
+}
+
 .bottomtext{
     background-color: none;
-    bottom: 0; 
+    bottom: 10px; 
     position: absolute;
+    font-size: 20px;
     text-shadow: rgba(255, 0, 0, 1) 2px 2px;
 }
 .bottomtext:hover{
@@ -100,23 +149,25 @@ input{
     color: white;
     text-shadow: rgba(0, 0, 0, 1) 2px 2px;
     box-shadow: rgba( 0, 0, 0, 1) 2px 2px;
+    transform: translateY(-20px);
 }
 
 .menutext{
     background-color: none;
     text-shadow: rgba(255, 0, 0, 1) 2px 2px;
+    font-size: 20px;
     color: white;
-    background-color: grey;
+    background: rgba(255, 123, 0, 0.25);
 }
 .menutext:hover{
     background: linear-gradient(red,orange);
     color: white;
     text-shadow: rgba(0, 0, 0, 1) 2px 2px;
     box-shadow: rgba( 0, 0, 0, 1) 2px 2px;
-    transform: translateX(10px);
+    transform: scale(1.25);
 }
 
-#donate-button{
+/*#donate-button{
     text-align: center;
     background-color: black;
     color: white;
@@ -126,9 +177,9 @@ input{
 #donate-button:hover{
     background-color: orange;
     box-shadow: rgba( 0, 0, 0, 1) 4px 4px;
-}
+}*/
 
-#convert{
+/*#convert{
     font-size: 100px;
     background-color: black;
     color: white;
@@ -137,25 +188,27 @@ input{
 #convert:hover{
     background-color: red;
     box-shadow: rgba( 0, 0, 0, 1) 4px 4px;
-}
+}*/
 
 .dropdown {
     position: absolute;
     display: inline-block;
     top: 0;
     left: 0;
-    background-color: black;
+    background: rgba(255, 123, 0, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px;
+    border-radius: 15px;
 }
   
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background: rgba(255, 123, 0, 0.75);
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px; ;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 2;
-    background-color: black;
+    border-radius: 15px;
 }
   
 .dropdown:hover .dropdown-content {
@@ -163,10 +216,8 @@ input{
 }
 
 #dropbutton{
-    background-color: black;
     color: white;
 }
 #dropbutton:hover{
-    background-color: white;
     color: black;
 }

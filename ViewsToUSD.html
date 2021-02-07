@@ -8,33 +8,33 @@
         <div class="dropdown">
             <span id="dropbutton" style="font-size: 72px;">☰</span>
             <div class="dropdown-content">
-                <h3 class="menutext" onclick="location.href = 'index.html'">BlazeToUSD</h3>
-                <h3 class="menutext" onclick="location.href = 'viewstousd.html'">ViewsToUSD</h3>
-                <h3 class="menutext" onclick="location.href = 'support.html'">Support</h3>
-                <h3 class="menutext" onclick="window.open('https://www.tylerruotolo.tk')">My Website</h3>
-                <h3 class="menutext" onclick="window.open('https://www.storyfire.com/user/ow6I6XmrUGMoTDSbQpiO3Dcnw1N2')">StoryFire</h3>
-                <h3 class="menutext" onclick="window.open('https://www.youtube.com/TylerRuotolo')">YouTube</h3>
-                <h3 class="menutext" onclick="window.open('https://www.twitter.com/TylerRuotolo')">Twitter</h3>
-                <h3 class="menutext" onclick="window.open('https://www.blazetousd.tk/LICENSE')">Copyright License</h3>
+                <a class="menutext" onclick="location.href = 'index.html'">BlazeToUSD</a>
+                <a class="menutext" onclick="location.href = 'viewstousd.html'">ViewsToUSD</a>
+                <a class="menutext" onclick="location.href = 'support.html'">Support</a>
+                <a class="menutext" onclick="window.open('https://www.storyfire.com/user/ow6I6XmrUGMoTDSbQpiO3Dcnw1N2')">StoryFire</a>
+                <a class="menutext" onclick="window.open('https://www.youtube.com/TylerRuotolo')">YouTube</a>
+                <a class="menutext" onclick="window.open('https://www.twitter.com/TylerRuotolo')">Twitter</a>
+                <a class="menutext" onclick="window.open('https://www.blazetousd.tk/LICENSE')">Copyright License</a>
             </div>
         </div>
-        <input type="number" id="blaze" style="width: 45%;"placeholder="Blaze"/>
-        <input type="number" id="views" style="width: 45%;" placeholder="Views">
-        <input id="usd" placeholder="USD" readonly/>
-        <table>
-            <tbody>
-            <a id="convert" onclick="convertViews()">Convert</a>
-            <a id="twitter-share-button">Tweet</a>
-            <a id="donate-button" href="https://paypal.me/tylerruotolo">Donate</a>
-            </tbody>
-            
-        </table>
-           
-        <p style="color: black;">NOTE: This converter converts paid views(using Blaze) on StoryFire to USD..</p>
-        <p style="color: black;">This converter is not made by StoryFire Inc., but it is made to help creators know how much real money they've made from paid views.</p>
-        <h3 class="bottomtext" onclick="location.href = 'https://blazetousd.tk/LICENSE'">© Copyright Tyler Ruotolo 2020</h3>
-        <h3 id="versionnumber" class="bottomtext" style="right: 0;">Version: </h3>
+        <div class="elmcontain">
+            <div class="infodiv">
+                <input type="number" id="blaze" style="width: 33.3%;"placeholder="Blaze"/>
+                <input type="number" id="views" style="width: 33.3%;" placeholder="Views">
+                <input id="usd"  placeholder="USD" style="width: 33.3%;" readonly/>
+            </div>
+            <div class="infodiv">
+                <a id="convert" style="width: 33.3%;" onclick="convertUSD()">Convert</a>
+                <a id="twitter-share-button" style="width: 33.3%;">Tweet</a>
+                <a id="donate-button" style="width: 33.3%;" href="https://paypal.me/tylerruotolo">Donate</a>
+            </div>
+            <div class="infodiv">
+                <p style="color: white;">NOTE: This converter converts paid views(using Blaze) on StoryFire to USD. 
+                    This converter is not made by StoryFire Inc., but it is made to help creators know how much real money they've made from paid views.</p>
+            </div>
+        </div>
+        <a class="bottomtext" style="left:0;" onclick="location.href = 'https://blazetousd.tk/LICENSE'">© Copyright Tyler Ruotolo 2020</h3>
+        <a id="versionnumber" class="bottomtext" style="right: 0;">Version: </h3>
         <script src="converter.js"></script>
-        <script data-ad-client="ca-pub-4518933379950981" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </body>
 </html>
