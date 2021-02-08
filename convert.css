@@ -71,8 +71,10 @@ a {
   }
   
   a:hover {
-    background: rgba(255, 123, 0, 0.5);
-    box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px; 
+    background: linear-gradient(red,orange);
+    color: white;
+    text-shadow: rgba(0, 0, 0, 1) 2px 2px;
+    box-shadow: rgba(255, 123, 0, 0.75) 5px 5px 5px 5px; 
     transform: scale(1.25);
     border-radius: 15px;
   }
@@ -154,7 +156,7 @@ object{
     background: linear-gradient(red,orange);
     color: white;
     text-shadow: rgba(0, 0, 0, 1) 2px 2px;
-    box-shadow: rgba( 0, 0, 0, 1) 2px 2px;
+    box-shadow: rgba(255, 123, 0, 0.75) 2.5px 2.5px 2.5px 2.5px; 
     transform: translateY(-20px);
 }
 
@@ -170,7 +172,7 @@ object{
     background: linear-gradient(red,orange);
     color: white;
     text-shadow: rgba(0, 0, 0, 1) 2px 2px;
-    box-shadow: rgba( 0, 0, 0, 1) 2px 2px;
+    box-shadow: rgba(255, 255, 255, 0.75) 2px 2px 2px 2px; 
     transform: scale(1.25);
 }
 
