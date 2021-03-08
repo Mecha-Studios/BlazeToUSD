@@ -45,7 +45,7 @@ textarea{
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 80%;
     background: rgba(0, 0, 0, 0);
     color: white;
   }
@@ -65,7 +65,7 @@ a {
     padding: 14px 16px;
     text-align: center;
     transition: 0.3s;
-    font-size: 100px;
+    font-size: 100%;
     background: rgba(0, 0, 0, 0);
     color: white;
   }
