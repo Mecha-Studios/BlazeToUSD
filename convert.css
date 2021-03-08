@@ -131,6 +131,20 @@ a {
     display: flex;
 }
 
+.copyrighttxt{
+    width: 60%;
+    margin: 10px;
+    top: 10%;
+    left: 20%;
+    height: 600px;
+    color: white;
+    box-shadow: rgba(255, 255, 255, 0.5) 5px 5px 5px;
+    background: rgba(255,255,255,0.75);
+    text-align: center;
+    border-radius: 15px;
+    display: inline;
+}
+
 object{
     color: white;
 }
@@ -147,7 +161,7 @@ object{
 .bottomtext{
     background-color: none;
     bottom: 10px; 
-    position: absolute;
+    position: fixed;
     font-size: 20px;
     text-shadow: rgba(255, 0, 0, 1) 2px 2px;
 }
